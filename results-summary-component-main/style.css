@@ -1,0 +1,138 @@
+@font-face {
+    font-family:fonteprincipal;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+body{
+    background-color:white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.circulo{
+display: inline-block;
+text-align: center;
+border-radius:50% ;
+background: linear-gradient (
+    0deg,
+    hsla(256, 72%, 46%, 1), 
+    hsla(241, 72%, 46%, 0));
+width: 100px;
+height: 100px;
+box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
+padding: 10px;
+color:  hsl(241, 100%, 89%);
+font-family: fonteprincipal;
+font-size: 15px;}
+
+.n76{
+    font-size: 50px;
+    font-family: fonteprincipal;
+    color: white;
+}
+
+
+.blocoroxo{
+    border: 2px solid white;
+    border-radius: 10px;
+    background: linear-gradient(
+  0deg,
+  hsl(252, 100%, 67%), 
+  hsl(241, 81%, 54%)
+);
+
+text-align: center;
+color:  hsl(241, 100%, 89%);
+font-family: fonteprincipal;
+padding: 15px;
+}
+.great{
+    color: hsl(0, 0%, 100%);
+}
+.blocobranco{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 30%, 27%);
+    font-family: fonteprincipal;
+    font-weight: bold;
+padding: 15px;
+}
+.reaction{
+ border: 2px solid white;
+ border-radius: 10px;
+ background-color:  hsl(221, 100%, 96%); 
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+    .preaction {
+color: hsl(0, 100%, 67%);
+}
+.raio{
+    vertical-align: middle;
+}
+.preaction{
+    color: hsl(0, 100%, 67%);
+    text-align: left;
+}
+.memory{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:  hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+    .cerebro{
+        vertical-align: middle;
+    }
+.pmemory{
+    color: hsl(39, 100%, 56%);
+}
+.verbal{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:  hsl(221, 100%, 96%);
+display: flex;
+justify-content: space-between;
+padding: 10px;
+
+}
+.pverbal{
+    color: hsl(166, 100%, 37%);
+}
+.balao{
+    vertical-align: middle;
+}
+.visual{
+border: 2px solid white;
+border-radius: 10px;
+background-color:  hsl(221, 100%, 96%);
+display: flex;
+justify-content: space-between;
+padding: 10px;
+
+}
+.pvisual{
+    color: hsl(234, 85%, 45%);
+}
+.olho{
+    vertical-align: middle;
+}
+
+.continue{
+    margin-top: 30px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20%;
+    background-color:#303b59;
+    width: 250px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-style: normal;
+}
